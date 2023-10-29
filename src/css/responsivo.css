@@ -1,0 +1,32 @@
+@media (max-width: 1120px){
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+    .selecao-de-estofados{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+    .selecao-de-estofados .estofados{
+        margin-top: 37px;
+    }
+    .selecao-de-estofados .estofados .titulo{
+        font-size: 15px;
+    }
+    .selecao-de-estofados .lista-de-estofados{
+        gap: 9px;
+    }
+    .selecao-de-estofados .estofado img{
+        width: 80px;
+
+    }
+    .estofados-selecionado .estofado-grande{
+        width: 350px;
+        height: 350px;
+    }
+    .estofados-selecionado .descricao-cabiceira{
+        width: 80px;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}

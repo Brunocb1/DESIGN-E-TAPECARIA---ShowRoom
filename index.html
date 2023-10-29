@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design e Tapeçaria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400;500;700&family=Leckerli+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oleo+Script:wght@400;700&family=Oxanium:wght@300;400;700&family=Roboto:ital,wght@1,500&family=Sansita:wght@400;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="menu">
+        <a href="./index.html"><span>I</span>nicio</a>
+        <a href="./indexContact.html"><span>C</span>ontato</a>
+    </header>
+    <header class="cabecalho">      
+        <img class="logo" src="./src/imagens/LOGO.jpg" alt="logo design">
+
+    </header>
+    <main class="selecao-de-estofados">
+        <section class="estofados">
+            <h1 class="titulo">Showroom - Selecione um Produto</h1>
+            <ul class="lista-de-estofados">
+                <li class="estofado  selecionado" id="cabeceira-capitone" data-name="Cabeceira em Capitonê"
+                    data-description="A cabeceira capitonê pode ser encontrada em
+                diversos materiais como veludo e camurça que dão muita elegância ao quarto, além de terem um
+                toque
+                bastante agradável">
+                    <img src="src/imagens/cabeceira capitone.jpg" alt="cabeceira-capitone">
+                </li>
+                <li class="estofado" id="puff-marrom" data-name="Puff marrom" data-description="Use o puff como uma
+                    extensão do sofá, os puffs são muito utilizados para colocar os pés enquanto as pessoas estão
+                    sentadas no sofá. isso além de ser muito confortável é uma forma de ter um ambiente mais
+                    aconchegante e muito bonito">
+                    <img src="src/imagens/puff marrom.jpg" alt="puff">
+
+                </li>
+
+                <li class="estofado" id="cabeceira-imperial" data-name="Cabeceira imperial"
+                    data-description="Uma peça que personifica o glamour e a beleza intemporal, A Cabeceira Imperial Rainha é verdadeiramente deslumbrante. Sua estrutura esculpida apresenta detalhes delicados e folheados em ouro ou prata, trazendo um brilho luxuoso. O estofamento é revestido com tecido de veludo luxuoso, proporcionando um toque suave e uma aparência sofisticada">
+                    <img src="src/imagens/Cabeceira imperial.jpeg" alt="cabeceira-imperial">
+                </li>
+                <li class="estofado" id="cabeceira-personalizada" data-name="Cabeceira personalizada"
+                    data-description="Essa cabeceira clássica possui acabamento capitonê, um detalhe que garante muita elegância ao quarto e que pode deixar sua cama linda com uma decoração de Estilo Clássico">
+                    <img src="src/imagens/cabeceira personalizada.jpeg" alt="cabeceira-personalizado">
+                </li>
+                <li class="estofado" id="cabeceira-puxado" data-name="Cabeceira Capitonê Puxado"
+                    data-description="Cabeceira Veneza vai te encantar. Seu quarto vai ganhar um charme especial, e ficar ainda mais elegante! Sua estrutura é em madeira de eucalipto, e compensado de pinus 4 mm, também possui pequenos pés em madeira de eucalipto torneado. A fixação padrão é na parede, não acompanha frame para fixação na cama. Sua largura é de 10 cm maior que a cama (5 cm de cada lado)">
+                    <img src="src/imagens/cabeceira puxado.jpeg" alt="cabeceira-puxado">
+                </li>
+                <li class="estofado" id="cadeira-jantar" data-name="Cadeira de jantar"
+                    data-description="Para deixar os almoços e jantares em família mais aconchegantes e sofisticados, a Cadeira de Jantar Ludiana é perfeita! Sua base é produzida em madeira, trazendo um toque de rusticidade combinado ao estilo contemporâneo">
+                    <img src="src/imagens/cadeira jantar.jpg" alt="cadeira-jantar">
+                </li>
+                <li class="estofado" id="cadeira-vermelha" data-name="Cadeira Capitonê vermelha"
+                    data-description="Com esta cadeira decorativa modelo egg, a sua decoração vai ficar muito mais bonita e moderna. É uma excelente opção para quem deseja ousar em casa, no escritório ou onde mais desejar">
+                    <img src="src/imagens/cadeira vermelha.jpg" alt="cadeira-vermelha">
+                </li>
+                <li class="estofado" id="poltrona" data-name="Poltrona"
+                    data-description="Além de ser uma linda poltrona que transforma seu lar em um ambiente mais receptivo e moderno, ela é uma confeccionada para qualquer tipo de cômodo de sua preferência. Confortável e aconchegante, perfeito para o seu descanso e momentos para relaxar. O revestimento em linho deixa o ambiente muito mais clean e irresistível">
+                    <img src="src/imagens/poltrona.jpg" alt="poltrona">
+                </li>
+                <li class="estofado" id="puff-bau" data-name="Puff Baú"
+                    data-description="O Puff Baú é charmoso e confortável, ideal para armazenamento de objetos e acomoda super bem na hora do descanso, produzido com material de qualidade, oferece ainda mais durabilidade. Fabricado com mdf 15 mm, seu revestimento é feito com suede ou material sintético, facilitando na limpeza do produto">
+                    <img src="src/imagens/puff bau.jpeg" alt="puff-bau">
+                </li>
+            </ul>
+        </section>
+        <section class="estofados-selecionado">
+            <img class="estofado-grande" src="src/imagens/card-cabeceira-capitone.png" alt="">
+            <div class="informacoes-cabeceira">
+                <h2 class="nome-estofado" id="nome-estofado">Cabeceira Capitonê</h2>
+                <p class="descricao-cabeceira" id="descricao-cabeceira">A cabeceira capitonê pode ser encontrada em
+                    diversos materiais como veludo e camurça que dão muita elegância ao quarto, além de terem um
+                    toque
+                    bastante agradável.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+
+</html>

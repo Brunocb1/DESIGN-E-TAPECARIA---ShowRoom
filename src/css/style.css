@@ -47,4 +47,6 @@ span{
     border-radius: 30px;
     margin-left: 400px;
     margin-top: -800px;
+    border: 1px solid #000000;
+    box-shadow: 15px 15px 45px black;
 }

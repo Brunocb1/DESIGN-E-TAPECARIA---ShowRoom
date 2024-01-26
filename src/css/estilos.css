@@ -103,7 +103,7 @@ img {
 .estofados-selecionado .estofado-grande{
     width: 430px;
     height: 330px;
-    max-width: 300px;
+    max-width: 400px;
 }
 .estofados-selecionado .nome-estofado{
     border-bottom: 3px solid #ff0000;

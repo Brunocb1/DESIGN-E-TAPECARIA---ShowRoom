@@ -16,28 +16,50 @@
 </head>
 
 <body>
-    <header class="menu">
-        <a href="./index.html"><span>I</span>nicio</a>
-        <a href="./indexContact.html"><span>C</span>ontato</a>
-    </header>
+    <section>
+        <header class="menu">
+            <a href="./index.html"><span>I</span>nicio</a>
+            <a href="./indexContact.html"><span>C</span>ontato</a>
+            <button class="duvidas" onclick="abrir()"><span class="span">D</span>úvidas</a>
+        </header>
 
-    <div class="contacts">
-        <a href="https://www.facebook.com/brunohenriquedos.santos.353/" target="_blank">
-            <img class="midia" src="./src/imagens/facebook.png" alt="facebook"><span>F</span>acebook
-        </a>
-        <a href="https://www.instagram.com/brunohdsantos93/" target="_blank">
-            <img class="midia" src="./src/imagens/instagram.png" alt="instagram"><span>I</span>ntagram
-        </a>
-        <a href="https://www.linkedin.com/in/bruno-henrique-dos-santos-4a4b2b161/" target="_blank">
-            <img class="midia" src="./src/imagens/linkedin.png" alt="linkedin"><span>L</span>inkedin
-        </a>
-        <a href="https://github.com/Brunocb1" target="_blank">
-            <img class="midia" src="./src/imagens/github.png" alt="github"><span>G</span>itHub
-        </a>
-    </div>
-    <section class="box">
-        <img class="faxada" src="./src/imagens/faxada.jpg" alt="">
+        <div class="contacts">
+            <a href="https://www.facebook.com/brunohenriquedos.santos.353/" target="_blank">
+                <img class="midia" src="./src/imagens/facebook.png" alt="facebook"><span>F</span>acebook
+            </a>
+            <a href="https://www.instagram.com/brunohdsantos93/" target="_blank">
+                <img class="midia" src="./src/imagens/instagram.png" alt="instagram"><span>I</span>ntagram
+            </a>
+            <a href="https://www.linkedin.com/in/bruno-henrique-dos-santos-4a4b2b161/" target="_blank">
+                <img class="midia" src="./src/imagens/linkedin.png" alt="linkedin"><span>L</span>inkedin
+            </a>
+            <a href="https://github.com/Brunocb1" target="_blank">
+                <img class="midia" src="./src/imagens/github.png" alt="github"><span>G</span>itHub
+            </a>
+        </div>
+        <section class="box">
+            <img class="faxada" src="./src/imagens/faxada.jpg" alt="">
+        </section>
     </section>
+    <form action="https://formsubmit.co/brunohsantos1993@gmail.com" method="POST">
+        <input type="text" name="Nome" required placeholder="Nome...">
+        <input type="email" name="Email" required placeholder="@email...">
+        <textarea type="text" name="Dúvidas" id="" cols="30" rows="10"
+            placeholder="Digite sua pergunta aqui..."></textarea>
+        <button type="submit">Enviar</button>
+        <button onclick="voltar()" type="button" class="button-back">Voltar</button>
+    </form>
 </body>
+<script>
+
+    function abrir() {
+        document.querySelector("form").style.opacity = 1;
+        document.querySelector("section").style.opacity = 0.4;
+    }
+    function voltar() {
+        document.querySelector("form").style.opacity = 0;
+        document.querySelector("section").style.opacity = 1;
+    }
+</script>
 
 </html>

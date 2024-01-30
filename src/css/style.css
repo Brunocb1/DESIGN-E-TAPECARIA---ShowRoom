@@ -17,6 +17,9 @@ body::before{
     opacity: 0.1;
     
 }
+header{
+    margin-top: -50px;
+}
 .menu a{
     font-size: 25px;
     margin-left: 20px;
@@ -52,3 +55,70 @@ span{
     border: 1px solid #000000;
     box-shadow: 15px 15px 45px black;
 }
+form{
+    background: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+    width: 400px;
+    height: 400px;
+}
+textarea{
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 352px;
+}
+input{
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 352px;
+    height: 50px;
+
+}
+button{
+    background:rgb(241, 40, 40) ;
+    color:rgb(255, 255, 255) ;
+    width: 174px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Sansita", cursive;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+    opacity: 0.7;
+}
+.button-back{
+    background-color: gray;
+}
+.duvidas{
+    text-align: center;
+    width: 130px;
+    background-color: transparent;
+    color: #000000;
+    font-size: 25px;
+}
+.span{
+    color: #ff0000;
+}
+section{
+    transition: opacity 1s;
+}
+
